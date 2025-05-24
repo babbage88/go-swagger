@@ -41,7 +41,7 @@ enableGitInfo: true
 menu:
   before:
     - name: "Find go-swagger on github"
-      url: "https://github.com/go-swagger/go-swagger"
+      url: "https://github.com/babbage88/go-swagger"
       weight: 1
     - name: ""
       pre: "<hr>"
@@ -114,7 +114,7 @@ params:
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo: 'https://github.com/go-swagger/go-swagger'
+  BookRepo: 'https://github.com/babbage88/go-swagger'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.

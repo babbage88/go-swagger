@@ -13,7 +13,7 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   contact:
     name: fred
-    url: https://github.com/go-swagger/go-swagger
+    url: https://github.com/babbage88/go-swagger
     email: fred@example.com
 
 externalDocs:

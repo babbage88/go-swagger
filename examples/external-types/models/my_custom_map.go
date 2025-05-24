@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/strfmt"
-	alternate "github.com/go-swagger/go-swagger/examples/external-types/fred"
+	alternate "github.com/babbage88/go-swagger/examples/external-types/fred"
 )
 
 // MyCustomMap This generate a map type in models, based on the external type.

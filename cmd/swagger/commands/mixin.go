@@ -11,7 +11,7 @@ import (
 	"github.com/go-openapi/spec"
 	flags "github.com/jessevdk/go-flags"
 
-	"github.com/go-swagger/go-swagger/generator"
+	"github.com/babbage88/go-swagger/generator"
 )
 
 const (

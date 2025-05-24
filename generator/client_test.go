@@ -226,7 +226,7 @@ func TestClient(t *testing.T) {
 	var importBase string
 	if base == "" {
 		base = "."
-		importBase = "github.com/go-swagger/go-swagger/generator/"
+		importBase = "github.com/babbage88/go-swagger/generator/"
 	} else {
 		base = filepath.Join(base, "src")
 		err := os.MkdirAll(base, 0o755)

@@ -6,7 +6,7 @@ description: Contributing guide
 bookCollapseSection: true
 weight: 40
 ---
-{{<forkme url="https://github.com/go-swagger/go-swagger/fork">}}
+{{<forkme url="https://github.com/babbage88/go-swagger/fork">}}
 
 # How to contribute?
 
@@ -16,7 +16,7 @@ A quick guide on how to contribute to `go-swagger` and to the family of the `go-
 
 You are welcome to clone this repo and start helping the `go-openapi` community:
 ```sh
-git clone https://github.com/go-swagger/go-swagger
+git clone https://github.com/babbage88/go-swagger
 ```
 
 Have an idea? A problem? Engage the conversation on our [![Slack logo](../slack.png) Slack channel](https://goswagger.slack.com)

@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/babbage88/go-swagger/examples/auto-configure/restapi/operations"
 	"github.com/go-openapi/swag"
-	"github.com/go-swagger/go-swagger/examples/auto-configure/restapi/operations"
 )
 
 type ConfigureImpl struct {

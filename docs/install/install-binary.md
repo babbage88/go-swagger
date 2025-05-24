@@ -86,7 +86,7 @@ At this moment, we do not support pre-packaged binaries for Windows.
 
 You can also download a binary for your platform from github:
 
-<https://github.com/go-swagger/go-swagger/releases/latest>
+<https://github.com/babbage88/go-swagger/releases/latest>
 
 {{<hint info>}}
 We currently release binary builds for the following platforms:

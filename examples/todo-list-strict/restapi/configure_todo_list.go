@@ -9,8 +9,8 @@ import (
 	"github.com/go-openapi/errors"
 	"github.com/go-openapi/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/todo-list-strict/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/todo-list-strict/restapi/operations/todos"
+	"github.com/babbage88/go-swagger/examples/todo-list-strict/restapi/operations"
+	"github.com/babbage88/go-swagger/examples/todo-list-strict/restapi/operations/todos"
 )
 
 //go:generate swagger generate server --target ../../todo-list-strict --name TodoList --spec ../swagger.yml --strict-responders

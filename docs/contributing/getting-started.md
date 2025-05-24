@@ -18,12 +18,12 @@ You may develop on Linux, MacOS or Windows.
 ```sh
 mkdir -p $GOPATH/src/github.com/go-swagger
 cd $GOPATH/src/github.com/go-swagger
-git clone https://github.com/go-swagger/go-swagger
+git clone https://github.com/babbage88/go-swagger
 ```
 
 Building and installing go-swagger from source on your system:
 ```sh
-go install github.com/go-swagger/go-swagger/cmd/swagger@latest
+go install github.com/babbage88/go-swagger/cmd/swagger@latest
 
 swagger version
 dev

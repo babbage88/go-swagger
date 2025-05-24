@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/babbage88/go-swagger/examples/stream-server/client"
+	"github.com/babbage88/go-swagger/examples/stream-server/client/operations"
+	"github.com/babbage88/go-swagger/examples/stream-server/models"
 	"github.com/go-openapi/runtime"
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/swag"
-	"github.com/go-swagger/go-swagger/examples/stream-server/client"
-	"github.com/go-swagger/go-swagger/examples/stream-server/client/operations"
-	"github.com/go-swagger/go-swagger/examples/stream-server/models"
 )
 
 func main() {

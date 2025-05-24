@@ -17,7 +17,7 @@ package generate
 import (
 	"log"
 
-	"github.com/go-swagger/go-swagger/generator"
+	"github.com/babbage88/go-swagger/generator"
 )
 
 type clientOptions struct {

@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/authentication/models"
+	"github.com/babbage88/go-swagger/examples/authentication/models"
 )
 
 // CreateHandlerFunc turns a function with the right signature into a create handler

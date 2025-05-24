@@ -10,7 +10,7 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/go-swagger/go-swagger/examples/authentication/client/customers"
+	"github.com/babbage88/go-swagger/examples/authentication/client/customers"
 )
 
 // Default auth sample HTTP client.

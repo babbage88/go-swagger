@@ -24,7 +24,7 @@ import (
 	flags "github.com/jessevdk/go-flags"
 	"golang.org/x/net/netutil"
 
-	"github.com/go-swagger/go-swagger/examples/external-types/restapi/operations"
+	"github.com/babbage88/go-swagger/examples/external-types/restapi/operations"
 )
 
 const (

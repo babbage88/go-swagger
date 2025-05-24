@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/babbage88/go-swagger/cmd/swagger/commands/internal/cmdtest"
 	"github.com/go-openapi/loads"
-	"github.com/go-swagger/go-swagger/cmd/swagger/commands/internal/cmdtest"
 	"github.com/stretchr/testify/require"
 )
 

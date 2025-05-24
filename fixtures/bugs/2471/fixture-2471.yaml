@@ -5,7 +5,7 @@ info:
   version: 0.1.0
   title: Reproducer
   description: |
-    Reproducer for https://github.com/go-swagger/go-swagger/issues/2471
+    Reproducer for https://github.com/babbage88/go-swagger/issues/2471
 consumes:
   - application/json
 produces:

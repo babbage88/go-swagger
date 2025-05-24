@@ -11,13 +11,13 @@ description: Installation instructions for go-swagger, from source
 If you have `go` version `{{< param goswagger.goVersion >}}` or greater installed, `go-swagger` can be installed by running:
 
 ```sh
-go install github.com/go-swagger/go-swagger/cmd/swagger@latest
+go install github.com/babbage88/go-swagger/cmd/swagger@latest
 ```
 
-You may need to CGO disabled, see [#3171](https://github.com/go-swagger/go-swagger/issues/3171).
+You may need to CGO disabled, see [#3171](https://github.com/babbage88/go-swagger/issues/3171).
 
 ```sh
-CGO_ENABLED=0 go install github.com/go-swagger/go-swagger/cmd/swagger@latest
+CGO_ENABLED=0 go install github.com/babbage88/go-swagger/cmd/swagger@latest
 ```
 
 
@@ -25,7 +25,7 @@ CGO_ENABLED=0 go install github.com/go-swagger/go-swagger/cmd/swagger@latest
 
 #### Using a released source tarball
 
-[![GitHub Downloads (all assets, latest release)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgo-swagger%2Fgo-swagger%2Freleases%2Flatest&label=Latest%20tarball&query=%24.tarball_url)](https://github.com/go-swagger/go-swagger/releases/latest)
+[![GitHub Downloads (all assets, latest release)](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fgo-swagger%2Fgo-swagger%2Freleases%2Flatest&label=Latest%20tarball&query=%24.tarball_url)](https://github.com/babbage88/go-swagger/releases/latest)
 
 ```sh
 dir=$(mktemp -d) 
@@ -45,7 +45,7 @@ Install or update from current source master:
 
 ```sh
 dir=$(mktemp -d) 
-git clone https://github.com/go-swagger/go-swagger "$dir" 
+git clone https://github.com/babbage88/go-swagger "$dir" 
 cd "$dir"
 go install ./cmd/swagger
 ```
@@ -54,8 +54,8 @@ To install a specific version from source an appropriate tag needs to be checked
 
 ```sh
 dir=$(mktemp -d)
-git clone https://github.com/go-swagger/go-swagger "$dir" 
+git clone https://github.com/babbage88/go-swagger "$dir" 
 cd "$dir"
 git checkout {{< param goswagger.latestRelease >}}
-go install -ldflags "-X github.com/go-swagger/go-swagger/cmd/swagger/commands.Version=$(git describe --tags) -X github.com/go-swagger/go-swagger/cmd/swagger/commands.Commit=$(git rev-parse HEAD)" ./cmd/swagger
+go install -ldflags "-X github.com/babbage88/go-swagger/cmd/swagger/commands.Version=$(git describe --tags) -X github.com/babbage88/go-swagger/cmd/swagger/commands.Commit=$(git rev-parse HEAD)" ./cmd/swagger
 ```

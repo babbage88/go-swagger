@@ -4,8 +4,8 @@ import (
 	"crypto/rsa"
 	"os"
 
+	models "github.com/babbage88/go-swagger/examples/composed-auth/models"
 	errors "github.com/go-openapi/errors"
-	models "github.com/go-swagger/go-swagger/examples/composed-auth/models"
 	jwt "github.com/golang-jwt/jwt/v5"
 )
 

@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/composed-auth/models"
+	"github.com/babbage88/go-swagger/examples/composed-auth/models"
 )
 
 // AddOrderOKCode is the HTTP code returned for type AddOrderOK

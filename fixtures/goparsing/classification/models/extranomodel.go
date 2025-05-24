@@ -18,8 +18,8 @@ import (
 	"database/sql"
 	"time"
 
+	"github.com/babbage88/go-swagger/fixtures/goparsing/classification/transitive/mods"
 	"github.com/go-openapi/strfmt"
-	"github.com/go-swagger/go-swagger/fixtures/goparsing/classification/transitive/mods"
 )
 
 // A Something struct is used by other structs

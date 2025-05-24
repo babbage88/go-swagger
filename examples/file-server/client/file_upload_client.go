@@ -10,7 +10,7 @@ import (
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 
-	"github.com/go-swagger/go-swagger/examples/file-server/client/uploads"
+	"github.com/babbage88/go-swagger/examples/file-server/client/uploads"
 )
 
 // Default file upload HTTP client.

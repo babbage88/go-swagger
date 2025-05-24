@@ -179,7 +179,7 @@ definitions:
     type: object
     discriminator: typeId
     # base is duped here due to a bug in go-swagger that will try to embed a struct in an interface
-    # see https://github.com/go-swagger/go-swagger/issues/2413
+    # see https://github.com/babbage88/go-swagger/issues/2413
     required:
       - name
       - typeId

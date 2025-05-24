@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime"
 
-	"github.com/go-swagger/go-swagger/examples/external-types/models"
+	"github.com/babbage88/go-swagger/examples/external-types/models"
 )
 
 /*

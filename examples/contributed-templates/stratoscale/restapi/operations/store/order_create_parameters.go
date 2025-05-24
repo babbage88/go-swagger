@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/validate"
 
-	"github.com/go-swagger/go-swagger/examples/contributed-templates/stratoscale/models"
+	"github.com/babbage88/go-swagger/examples/contributed-templates/stratoscale/models"
 )
 
 // NewOrderCreateParams creates a new OrderCreateParams object

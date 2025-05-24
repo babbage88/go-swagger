@@ -14,9 +14,9 @@ import (
 	"github.com/go-openapi/loads"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/fixtures/bugs/1472/restapi"
-	"github.com/go-swagger/go-swagger/fixtures/bugs/1472/restapi/operations"
-	"github.com/go-swagger/go-swagger/fixtures/bugs/1472/restapi/operations/ops"
+	"github.com/babbage88/go-swagger/fixtures/bugs/1472/restapi"
+	"github.com/babbage88/go-swagger/fixtures/bugs/1472/restapi/operations"
+	"github.com/babbage88/go-swagger/fixtures/bugs/1472/restapi/operations/ops"
 )
 
 type User struct {

@@ -71,7 +71,7 @@ func init() {
                 "x-go-type": {
                   "import": {
                     "alias": "custom",
-                    "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                    "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
                   },
                   "type": "MyAlternateString"
                 }
@@ -93,7 +93,7 @@ func init() {
                 "x-go-type": {
                   "import": {
                     "alias": "custom",
-                    "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                    "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
                   },
                   "type": "MyAlternateString"
                 }
@@ -114,7 +114,7 @@ func init() {
                     "x-go-type": {
                       "import": {
                         "alias": "custom",
-                        "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                        "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
                       },
                       "type": "MyAlternateString"
                     }
@@ -167,7 +167,7 @@ func init() {
       "x-go-type": {
         "import": {
           "alias": "alternate",
-          "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+          "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
         },
         "type": "MyAlternateType"
       }
@@ -180,7 +180,7 @@ func init() {
         "x-go-type": {
           "import": {
             "alias": "alternate",
-            "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+            "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
           },
           "type": "MyAlternateType"
         }
@@ -197,7 +197,7 @@ func init() {
           },
           "import": {
             "alias": "alternate",
-            "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+            "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
           },
           "type": "MyAlternateType"
         }
@@ -213,7 +213,7 @@ func init() {
           "x-go-type": {
             "import": {
               "alias": "alternate",
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           }
@@ -230,7 +230,7 @@ func init() {
           "x-go-type": {
             "import": {
               "alias": "alternate",
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           },
@@ -249,7 +249,7 @@ func init() {
       "description": "This type is located in a package which requires name mangling.\n",
       "x-go-type": {
         "import": {
-          "package": "github.com/go-swagger/go-swagger/examples/external-types/go-ext"
+          "package": "github.com/babbage88/go-swagger/examples/external-types/go-ext"
         },
         "type": "MyExtType"
       }
@@ -261,7 +261,7 @@ func init() {
           "kind": "interface"
         },
         "import": {
-          "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+          "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
         },
         "type": "MyAlternateInterface"
       }
@@ -284,7 +284,7 @@ func init() {
               "kind": "interface"
             },
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInterface"
           }
@@ -326,7 +326,7 @@ func init() {
           "x-go-type": {
             "import": {
               "alias": "alternate",
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateStreamer"
           }
@@ -338,7 +338,7 @@ func init() {
               "kind": "stream"
             },
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateStreamer"
           }
@@ -357,7 +357,7 @@ func init() {
           "type": "object",
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           }
@@ -369,7 +369,7 @@ func init() {
         "additionalProperties": {
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           }
@@ -476,7 +476,7 @@ func init() {
             "x-go-type": {
               "import": {
                 "alias": "custom",
-                "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
               },
               "type": "MyAlternateType"
             }
@@ -486,7 +486,7 @@ func init() {
           "description": "Property defined as an external type from package \"fred\"\n",
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInteger"
           }
@@ -525,7 +525,7 @@ func init() {
             "x-go-type": {
               "import": {
                 "alias": "custom",
-                "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
               },
               "type": "MyAlternateType"
             },
@@ -539,7 +539,7 @@ func init() {
               "nullable": true
             },
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInteger"
           }
@@ -570,7 +570,7 @@ func init() {
             "x-go-type": {
               "import": {
                 "alias": "custom",
-                "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
               },
               "type": "MyAlternateType"
             }
@@ -579,7 +579,7 @@ func init() {
         "reqGamma": {
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInteger"
           }
@@ -645,7 +645,7 @@ func init() {
                 "x-go-type": {
                   "import": {
                     "alias": "custom",
-                    "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                    "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
                   },
                   "type": "MyAlternateString"
                 }
@@ -667,7 +667,7 @@ func init() {
                 "x-go-type": {
                   "import": {
                     "alias": "custom",
-                    "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                    "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
                   },
                   "type": "MyAlternateString"
                 }
@@ -688,7 +688,7 @@ func init() {
                     "x-go-type": {
                       "import": {
                         "alias": "custom",
-                        "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                        "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
                       },
                       "type": "MyAlternateString"
                     }
@@ -741,7 +741,7 @@ func init() {
       "x-go-type": {
         "import": {
           "alias": "alternate",
-          "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+          "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
         },
         "type": "MyAlternateType"
       }
@@ -754,7 +754,7 @@ func init() {
         "x-go-type": {
           "import": {
             "alias": "alternate",
-            "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+            "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
           },
           "type": "MyAlternateType"
         }
@@ -771,7 +771,7 @@ func init() {
           },
           "import": {
             "alias": "alternate",
-            "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+            "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
           },
           "type": "MyAlternateType"
         }
@@ -787,7 +787,7 @@ func init() {
           "x-go-type": {
             "import": {
               "alias": "alternate",
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           }
@@ -804,7 +804,7 @@ func init() {
           "x-go-type": {
             "import": {
               "alias": "alternate",
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           },
@@ -823,7 +823,7 @@ func init() {
       "description": "This type is located in a package which requires name mangling.\n",
       "x-go-type": {
         "import": {
-          "package": "github.com/go-swagger/go-swagger/examples/external-types/go-ext"
+          "package": "github.com/babbage88/go-swagger/examples/external-types/go-ext"
         },
         "type": "MyExtType"
       }
@@ -835,7 +835,7 @@ func init() {
           "kind": "interface"
         },
         "import": {
-          "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+          "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
         },
         "type": "MyAlternateInterface"
       }
@@ -858,7 +858,7 @@ func init() {
               "kind": "interface"
             },
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInterface"
           }
@@ -900,7 +900,7 @@ func init() {
           "x-go-type": {
             "import": {
               "alias": "alternate",
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateStreamer"
           }
@@ -912,7 +912,7 @@ func init() {
               "kind": "stream"
             },
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateStreamer"
           }
@@ -931,7 +931,7 @@ func init() {
           "type": "object",
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           }
@@ -943,7 +943,7 @@ func init() {
         "additionalProperties": {
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateType"
           }
@@ -1050,7 +1050,7 @@ func init() {
             "x-go-type": {
               "import": {
                 "alias": "custom",
-                "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
               },
               "type": "MyAlternateType"
             }
@@ -1060,7 +1060,7 @@ func init() {
           "description": "Property defined as an external type from package \"fred\"\n",
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInteger"
           }
@@ -1099,7 +1099,7 @@ func init() {
             "x-go-type": {
               "import": {
                 "alias": "custom",
-                "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
               },
               "type": "MyAlternateType"
             },
@@ -1113,7 +1113,7 @@ func init() {
               "nullable": true
             },
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInteger"
           }
@@ -1144,7 +1144,7 @@ func init() {
             "x-go-type": {
               "import": {
                 "alias": "custom",
-                "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+                "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
               },
               "type": "MyAlternateType"
             }
@@ -1153,7 +1153,7 @@ func init() {
         "reqGamma": {
           "x-go-type": {
             "import": {
-              "package": "github.com/go-swagger/go-swagger/examples/external-types/fred"
+              "package": "github.com/babbage88/go-swagger/examples/external-types/fred"
             },
             "type": "MyAlternateInteger"
           }

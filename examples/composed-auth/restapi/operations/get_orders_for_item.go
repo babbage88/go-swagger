@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/composed-auth/models"
+	"github.com/babbage88/go-swagger/examples/composed-auth/models"
 )
 
 // GetOrdersForItemHandlerFunc turns a function with the right signature into a get orders for item handler

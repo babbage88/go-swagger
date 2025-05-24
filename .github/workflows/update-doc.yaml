@@ -49,7 +49,7 @@ jobs:
       - name: Get all tags (fork)
         if: ${{ github.repository != 'go-swagger/go-swagger' }}
         run: |
-          git remote add upstream "https://github.com/go-swagger/go-swagger"
+          git remote add upstream "https://github.com/babbage88/go-swagger"
           git fetch upstream --prune --unshallow --tags
           git fetch --prune --unshallow --tags
 

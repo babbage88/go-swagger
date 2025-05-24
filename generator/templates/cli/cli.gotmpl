@@ -245,7 +245,7 @@ func makeAuthInfoWriter(cmd *cobra.Command) (runtime.ClientAuthInfoWriter, error
   {{- if .IsOAuth2 }}
   if viper.IsSet("oauth2-token") {
     // oauth2 workflow for generated CLI is not ideal.
-    // If you have suggestions on how to support it, raise an issue here: https://github.com/go-swagger/go-swagger/issues
+    // If you have suggestions on how to support it, raise an issue here: https://github.com/babbage88/go-swagger/issues
     // This will be added to header: "Authorization: Bearer {oauth2-token value}"
     token := viper.GetString("oauth2-token")
     auths = append(auths, httptransport.BearerToken(token))

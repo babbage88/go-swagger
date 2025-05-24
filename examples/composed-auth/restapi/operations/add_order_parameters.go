@@ -14,7 +14,7 @@ import (
 	"github.com/go-openapi/runtime/middleware"
 	"github.com/go-openapi/validate"
 
-	"github.com/go-swagger/go-swagger/examples/composed-auth/models"
+	"github.com/babbage88/go-swagger/examples/composed-auth/models"
 )
 
 // NewAddOrderParams creates a new AddOrderParams object

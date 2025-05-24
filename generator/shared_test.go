@@ -637,7 +637,7 @@ func TestDefaultImports(t *testing.T) {
 			Title: "defaults",
 			Opts:  &GenOpts{},
 			Expected: map[string]string{
-				"models": "github.com/go-swagger/go-swagger/generator/models",
+				"models": "github.com/babbage88/go-swagger/generator/models",
 			},
 		},
 		{
@@ -648,8 +648,8 @@ func TestDefaultImports(t *testing.T) {
 				},
 			},
 			Expected: map[string]string{
-				"ext":    "github.com/go-swagger/go-swagger/generator/ext",
-				"models": "github.com/go-swagger/go-swagger/generator/models",
+				"ext":    "github.com/babbage88/go-swagger/generator/ext",
+				"models": "github.com/babbage88/go-swagger/generator/models",
 			},
 		},
 		{
@@ -661,7 +661,7 @@ func TestDefaultImports(t *testing.T) {
 			},
 			Expected: map[string]string{
 				"identity": "github.com/myproject/identity",
-				"models":   "github.com/go-swagger/go-swagger/generator/models",
+				"models":   "github.com/babbage88/go-swagger/generator/models",
 			},
 		},
 		{
@@ -673,7 +673,7 @@ func TestDefaultImports(t *testing.T) {
 			},
 			Expected: map[string]string{
 				"auth":   "github.com/myproject/middleware",
-				"models": "github.com/go-swagger/go-swagger/generator/models",
+				"models": "github.com/babbage88/go-swagger/generator/models",
 			},
 		},
 		{
@@ -685,7 +685,7 @@ func TestDefaultImports(t *testing.T) {
 			},
 			Expected: map[string]string{
 				"auth":   "github.com/myproject/principal",
-				"models": "github.com/go-swagger/go-swagger/generator/models",
+				"models": "github.com/babbage88/go-swagger/generator/models",
 			},
 		},
 		{
@@ -696,7 +696,7 @@ func TestDefaultImports(t *testing.T) {
 				},
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/go-swagger/go-swagger/generator/target/bespoke",
+				"bespoke": "github.com/babbage88/go-swagger/generator/target/bespoke",
 			},
 		},
 		{
@@ -720,8 +720,8 @@ func TestDefaultImports(t *testing.T) {
 				},
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/go-swagger/go-swagger/generator/target/bespoke",
-				"auth":    "github.com/go-swagger/go-swagger/generator/auth",
+				"bespoke": "github.com/babbage88/go-swagger/generator/target/bespoke",
+				"auth":    "github.com/babbage88/go-swagger/generator/auth",
 			},
 		},
 		{
@@ -733,7 +733,7 @@ func TestDefaultImports(t *testing.T) {
 				},
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/go-swagger/go-swagger/generator/target/bespoke",
+				"bespoke": "github.com/babbage88/go-swagger/generator/target/bespoke",
 			},
 		},
 		{
@@ -745,7 +745,7 @@ func TestDefaultImports(t *testing.T) {
 				},
 			},
 			Expected: map[string]string{
-				"bespoke": "github.com/go-swagger/go-swagger/generator/target/bespoke",
+				"bespoke": "github.com/babbage88/go-swagger/generator/target/bespoke",
 			},
 		},
 		{
@@ -758,7 +758,7 @@ func TestDefaultImports(t *testing.T) {
 				},
 			},
 			Expected: map[string]string{
-				"models": "github.com/go-swagger/go-swagger/generator/target/models",
+				"models": "github.com/babbage88/go-swagger/generator/target/models",
 				"auth":   "target/auth",
 			},
 		},

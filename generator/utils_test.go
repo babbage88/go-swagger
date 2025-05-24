@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/go-swagger/go-swagger/generator/internal/gentest"
+	"github.com/babbage88/go-swagger/generator/internal/gentest"
 )
 
 var (

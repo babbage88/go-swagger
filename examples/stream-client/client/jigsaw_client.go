@@ -9,7 +9,7 @@ import (
 	"github.com/go-openapi/runtime"
 	httptransport "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
-	"github.com/go-swagger/go-swagger/examples/stream-client/client/operations"
+	"github.com/babbage88/go-swagger/examples/stream-client/client/operations"
 )
 
 // Default jigsaw HTTP client.

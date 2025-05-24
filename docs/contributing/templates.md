@@ -9,7 +9,7 @@ weight: 30
 
 For its code generation features, `go-swagger` uses a bunch of go text/templates.
 
-You'll find them all there: https://github.com/go-swagger/go-swagger/blob/master/generator/templates
+You'll find them all there: https://github.com/babbage88/go-swagger/blob/master/generator/templates
 
 The `go-swagger` executable is built with an in-memory image of templates.
 Binary encoded assets are auto-generated from the `generator/templates` directory using `go:embed`.

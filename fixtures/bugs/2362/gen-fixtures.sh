@@ -4,7 +4,7 @@ swagger generate server \
   --spec fixture-2362.yaml \
   --target case1 \
   --model-package restapi/models \
-  --principal github.com/go-swagger/go-swagger/fixtures/bugs/2362/case1/restapi/models.Principal \
+  --principal github.com/babbage88/go-swagger/fixtures/bugs/2362/case1/restapi/models.Principal \
   --exclude-main \
   --name data-updater
 printf "package models\n\ntype Principal struct{}" >> case1/restapi/models/principal.go

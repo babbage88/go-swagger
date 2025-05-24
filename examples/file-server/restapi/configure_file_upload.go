@@ -15,8 +15,8 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/go-swagger/go-swagger/examples/file-server/restapi/operations"
-	"github.com/go-swagger/go-swagger/examples/file-server/restapi/operations/uploads"
+	"github.com/babbage88/go-swagger/examples/file-server/restapi/operations"
+	"github.com/babbage88/go-swagger/examples/file-server/restapi/operations/uploads"
 )
 
 //go:generate swagger generate server --target ../../file-server --name FileUpload --spec ../swagger.yml --principal interface{}

@@ -12,7 +12,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	custom "github.com/go-swagger/go-swagger/examples/external-types/fred"
+	custom "github.com/babbage88/go-swagger/examples/external-types/fred"
 )
 
 // NewPostTestParams creates a new PostTestParams object

@@ -54,7 +54,7 @@ definitions:
     x-go-type:
       type: Hotspot
       import:
-        package: github.com/go-swagger/go-swagger/fixtures/enhancements/2224/external
+        package: github.com/babbage88/go-swagger/fixtures/enhancements/2224/external
       hints:
         kind: object
     x-nullable: true
@@ -64,14 +64,14 @@ definitions:
     x-go-type:
       type: Hotspot
       import:
-        package: github.com/go-swagger/go-swagger/fixtures/enhancements/2224/external
+        package: github.com/babbage88/go-swagger/fixtures/enhancements/2224/external
     x-nullable: true
 
   ExternalArray:
     x-go-type:
       type: HotArray
       import:
-        package: github.com/go-swagger/go-swagger/fixtures/enhancements/2224/external
+        package: github.com/babbage88/go-swagger/fixtures/enhancements/2224/external
         hints:
           kind: array
     x-nullable: true
@@ -83,14 +83,14 @@ definitions:
     x-go-type:
       type: HotArray
       import:
-        package: github.com/go-swagger/go-swagger/fixtures/enhancements/2224/external
+        package: github.com/babbage88/go-swagger/fixtures/enhancements/2224/external
     x-nullable: true
 
   ExternalPrimitive:
     x-go-type:
       type: Time
       import:
-        package: github.com/go-swagger/go-swagger/fixtures/enhancements/2224/external
+        package: github.com/babbage88/go-swagger/fixtures/enhancements/2224/external
         hints:
           kind: primitive
           novalidation: true
@@ -100,7 +100,7 @@ definitions:
     x-go-type:
       type: Hotspot
       import:
-        package: github.com/go-swagger/go-swagger/fixtures/enhancements/2224/external
+        package: github.com/babbage88/go-swagger/fixtures/enhancements/2224/external
       hints:
         kind: object
       embedded: true
